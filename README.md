@@ -38,3 +38,13 @@ docker rmi [ dl.dockerpool.com:5000/ubuntu / ID ]
 ```bash
 docker commit -m "describe something" -a "XXX" [image ID] [image NAME]
 ```
+
+打包image並產生一個檔案
+```bash
+docker save -o [output name.tar] [save image name]
+```
+
+載入image.tar檔案至docker中
+```bash
+docker load --input [image name.tar]
+```
