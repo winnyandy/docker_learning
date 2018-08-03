@@ -48,3 +48,12 @@ docker save -o [output name.tar] [save image name]
 ```bash
 docker load --input [image name.tar]
 ```
+上傳docker image 至 docker Hub
+```bash
+docker tag [image name:latest] [tag name:latest]
+docker push [tag name:latest]
+input:
+      Username
+      Password
+      Email
+ ```
