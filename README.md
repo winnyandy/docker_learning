@@ -32,7 +32,7 @@ docker search XXX
 
 刪除image
 ```bash
-docker rmi dl.dockerpool.com:5000/ubuntu
+docker rmi [ dl.dockerpool.com:5000/ubuntu / ID ]
 ```
 在A的image裡變更內容並產生新的image
 ```bash
