@@ -22,7 +22,7 @@ docker run -it ubuntu bash
 參數詳解
 -i:   讓容器的標準輸入保持打開
 
--t:   分配一個虛擬中端(pseudo-tty)並綁定到容器的標準輸入
+-t:   分配一個虛擬終端(pseudo-tty)並綁定到容器的標準輸入
 ```
 
 查看image資訊
