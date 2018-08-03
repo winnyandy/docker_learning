@@ -68,3 +68,33 @@ input:
 docker create -it ubuntu:latest
 ```
 
+查看容器資訊
+```bash
+docker ps
+```
+
+停止容器
+```bash
+docker stop [instance id]
+```
+
+啟動容器
+```bash
+docker start [instance id]
+```
+
+重新啟動容器
+```bash
+docker restart [instance id]
+```
+
+在容器中執行指令
+```bash
+docker exec -it [instance id] bash
+```
+
+刪除容器
+```bash 
+docker rm [instance id]
+```
+
