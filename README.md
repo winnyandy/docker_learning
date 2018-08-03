@@ -18,6 +18,11 @@ docker pull dl.dockerpool.com:5000/ubuntu
 讀取image建立容器(instance)
 ```bash
 docker run -it ubuntu bash
+
+參數詳解
+-i:   讓容器的標準輸入保持打開
+
+-t:   分配一個虛擬中端(pseudo-tty)並綁定到容器的標準輸入
 ```
 
 查看image資訊
@@ -57,3 +62,9 @@ input:
       Password
       Email
  ```
+
+建立容器(instance)
+```bash
+docker create -it ubuntu:latest
+```
+
