@@ -1,2 +1,6 @@
 # docker_learning
-OKOK
+
+# Download docker images
+```bash
+docker pull ubuntu
+```
