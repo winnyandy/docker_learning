@@ -34,3 +34,7 @@ docker search XXX
 ```bash
 docker rmi dl.dockerpool.com:5000/ubuntu
 ```
+在A的image裡變更內容並產生新的image
+```bash
+docker commit -m "describe something" -a "XXX" [image ID] [image NAME]
+```
