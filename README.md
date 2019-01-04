@@ -98,3 +98,10 @@ docker exec -it [instance id] bash
 docker rm [instance id]
 ```
 
+在centos7容器中，假如要使用systemctl功能
+```bash
+docker run -d --name [容器名稱] --privileged=true [映像檔名稱] /usr/sbin/init
+
+docker exec -it centos7 /bin/bash
+```
+
