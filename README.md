@@ -113,3 +113,5 @@ docker run -idt -p 5901:22 --name test1 centos:v2 /usr/sbin/sshd -D
 ```bash
 docker cp [容器名稱]:/etc/nginx/nginx.conf .
 ```
+
+[https://www.sail.name/2017/09/26/retalk-use-docker-to-build-development-environment-of-php-mysql-nginx/] docker搭建nginx+php+mysql
