@@ -109,4 +109,7 @@ docker exec -it centos7 /bin/bash
 ```bash
 docker run -idt -p 5901:22 --name test1 centos:v2 /usr/sbin/sshd -D
 ```
-
+複製container裡面的nginx設定檔出來
+```bash
+docker cp [容器名稱]:/etc/nginx/nginx.conf .
+```
