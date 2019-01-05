@@ -105,3 +105,8 @@ docker run -d --name [容器名稱] --privileged=true [映像檔名稱] /usr/sbi
 docker exec -it centos7 /bin/bash
 ```
 
+使用port對應，以ssh為例將container裡的22 port對應到主機的5901 
+```bash
+docker run -idt -p 5901:22 --name test1 centos:v2 /usr/sbin/sshd -D
+```
+
